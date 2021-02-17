@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy B'Day T</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images/Snapchat-1247287129.jpg" class="logo"> 
+
+                <ul class="main-nav animated slideInDown" id="check-class">
+                    <li><a.href="#">ABOUT T </a></li>
+                    <li><a.href="#">ABOUT R </a></li>
+                    <li><a.href="#">YOUR GIFT </a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+        <h1> WELCOME <span class="colorchange">TANNU MEHTA</span>.<br>
+            TODAY'S YOUR SPECIAL DAY </h1>
+            <a href="#" class="btn btn-full">click to show more</a>
+        </div>    
+    </header>
+
+    <script type="text/javascript">
+        function slideshow(){
+
+            var x = document.getElementById('check-class')
+            if(x.style.display === "none"){
+                x.style.display = "block";
+            }else{
+                x.style.display = "none"; 
+            }
+        }
+    
+    
+    </script>
+
+
+</body>
+</html>
